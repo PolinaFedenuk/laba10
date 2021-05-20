@@ -1,0 +1,21 @@
+.row {
+
+    display: flex;
+
+}
+
+.row_cell {
+
+    flex: 1
+
+}
+.row_cell--2 {
+
+    flex: 2
+
+}
+.row_cell--3 {
+
+    flex: 3
+
+}
