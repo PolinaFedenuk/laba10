@@ -1,13 +1,13 @@
-.cards {
+.media {
 
     display: flex;
+    align-items: flex-start;
 
-    flex-wrap: wrap;
-    align-items: center; justify-content: center;
+
 }
 
-.card {
+.media-body {
 
-    flex: 0 0 250px
+    flex: 1;
 
 }

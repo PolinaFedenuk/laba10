@@ -1,13 +1,38 @@
-.cards {
+body {
 
     display: flex;
+    flex-direction: column;
 
-    flex-wrap: wrap;
-    align-items: center; justify-content: center;
 }
 
-.card {
+header,
 
-    flex: 0 0 250px
+footer {
+
+    height: 20vh; /*you can use pixels e.g. 200px*/
+
+}
+
+main {
+
+    display: flex
+
+}
+
+nav,
+
+aside {
+
+    width: 20vw
+
+}
+article {
+
+    flex: 1
+
+}
+nav {
+
+    order: -1
 
 }

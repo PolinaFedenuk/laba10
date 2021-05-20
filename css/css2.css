@@ -19,3 +19,9 @@
     flex: 3
 
 }
+
+.row_cell--top {
+
+    align-self: flex-start
+
+}
